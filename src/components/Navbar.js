@@ -18,10 +18,22 @@ export default function Navbar() {
 
   return (
     <div className="sticky top-0 z-50 w-full flex justify-center space-x-20 py-4 text-4xl font-heading bg-primaryDark text-textDark" style={gradientShadow}>
-        <a onClick={() => handleAnchorClick("aboutMe")} className="hover:text-textHover">About Me</a>
+        <a  className="hover:text-textHover">About Me</a>
         <a onClick={() => handleAnchorClick("ingredients")} className="hover:text-textHover">Ingredients</a>
         <a onClick={() => handleAnchorClick("recipe")} className="hover:text-textHover">Recipe</a>
         <a onClick={() => handleAnchorClick("gallery")} className="hover:text-textHover">Gallery</a>
+        
+        {/*
+        <a className="hover:text-textHover" href="#"
+          onClick={() => handleAnchorClick("aboutMe")}>
+          <a className="transition-all duration-300 ease-in-out">
+            <span className="transition-all duration-300 ease-in-out bg-left-bottom bg-gradient-to-r from-accent1 to-accent2 bg-[length:0%_2px] bg-no-repeat 
+                              group-hover:bg-[length:100%_2px]">
+              This text gets 'underlined' on hover
+            </span>
+          </a>
+        </a>
+        */}
     </div>
   )
 }
