@@ -66,11 +66,11 @@ function App() {
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet"></link>
       </head>
-      <div className="bg-floral-wallpaper h-screen">
-        <Navbar/>
+      <Navbar/>
+      <div className="bg-repeat bg-center p-4" style={{backgroundImage: "url('https://creativesilhouettes.ca/wp-content/uploads/2021/09/botanical-floral_pattern.jpg')"}}>
         <Body title={"About Me"} jumpTo={"aboutMe"} text={
           <>
-
+            Grandma Mole loves baking cookies for her grandkids.
           </>
         }/>
         <Body title={"Ingredients"} jumpTo={"ingredients"} text={
@@ -127,16 +127,19 @@ function App() {
         }></Body>
 
         <Body title={"Gallery"} jumpTo={"gallery"} text={
-          <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
-            {
-              items.map((item) => (
-                <div key={item.id} className="carousel-item flex flex-col justify-center items-center p-4 h-full">
-                  <img src={item.img} className="p-1 carousel-image bg-accent3 rounded-xl"/>
-                  <p className="carousel-caption">{item.caption}</p>
-                </div>
-              ))
-            }
-          </Carousel>
+          <>
+            <p>Pictures of my grandkids (Sean, Lukas, and Josh) baking and eating the oatmeal cookies from this recipe:</p>
+            <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
+              {
+                items.map((item) => (
+                  <div key={item.id} className="carousel-item flex flex-col justify-center items-center p-4 h-full">
+                    <img src={item.img} className="p-1 carousel-image bg-accent3 rounded-xl"/>
+                    <p className="carousel-caption">{item.caption}</p>
+                  </div>
+                ))
+              }
+            </Carousel>
+          </>
         }>
         </Body>
       </div>
