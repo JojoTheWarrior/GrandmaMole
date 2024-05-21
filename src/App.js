@@ -70,7 +70,11 @@ function App() {
       <div className="bg-repeat bg-center p-4" style={{backgroundImage: "url('https://creativesilhouettes.ca/wp-content/uploads/2021/09/botanical-floral_pattern.jpg')"}}>
         <Body title={"About Me"} jumpTo={"aboutMe"} text={
           <>
-            Grandma Mole loves baking cookies for her grandkids.
+            Grandma Mole loves baking cookies for her grandkids. Starting from her childhood, she spent many hours in the kitchen each day baking with her own grandmother.
+            Eventually, the cookie recipes were passed onto her.
+            <br/><br/>
+            Serving as a combat medic in Mole War II, she baked and fed her soldiers cookies throughout the war but had to stop after they kept hounding her for more.
+            Her disarmingly delicious oatmeal cookies warmed the hearts of soldiers, and now she's sharing her recipe for the world to enjoy.
           </>
         }/>
         <Body title={"Ingredients"} jumpTo={"ingredients"} text={
