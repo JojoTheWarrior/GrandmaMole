@@ -12,6 +12,7 @@ export default function Checklist() {
         {id: 8, text: "1 tsp of baking soda", checked: false},
         {id: 9, text: "1.5 tsp of cinnamon powder", checked: false},
         {id: 10, text: "3 cups of oat flakes", checked: false},
+        {id: 11, text: (<p>1 cup of raisins or chocolate chips <b>(Optional)</b></p>), checked: false},
     ])
 
     const handleCheckboxChange = (itemId) => {

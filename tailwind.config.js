@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'heading': ['Permanent Marker', 'cursive'],
-        'body': ['Merriweather', 'serif'],
+        'heading': ['FamiliarFont', 'cursive'],
+        'body': ['BodyFont', 'serif'],
       },
       colors: {
         primary: '#F5F5DC',

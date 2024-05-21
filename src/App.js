@@ -21,6 +21,8 @@ import doughBalls from "./assets/doughBalls.jpeg";
 import joshFirstBatch from "./assets/joshFirstBatch.jpeg";
 import joshEating from "./assets/joshEating.jpeg";
 
+import './fonts/fonts.css'
+
 
 function App() {
   // for the carousel
@@ -101,15 +103,18 @@ function App() {
             <br/>
 
             <b><h2>Step 5:</h2></b>
-            <p>Prepare the dry ingredients - in another bowl, combine 2 cups of all-purpose flour, 1 teaspoon of baking soda, 1/2 teaspoons of salt, and 1 teaspoon of cinnamon powder. Stir it all together, then gradually mix it into the creamy mixture.</p>
+            <p>Prepare the dry ingredients - in another bowl, combine 2 cups of all-purpose flour, 1 teaspoon of baking soda, 1/2 teaspoons of salt, and 1 teaspoon of cinnamon powder. Stir it all together, then gradually mix it into to the creamy mixture.</p>
             <br/>
 
             <b><h2>Step 6:</h2></b>
-            <p>Slowly mix 3 cups of oat flakes into the mixture. These oats will give our cookies that wonderful chewy texture and make the mixture more firm.</p>
+            <p>
+              Slowly mix 3 cups of oat flakes into the mixture. These oats will give our cookies that wonderful chewy texture and make the mixture more firm.
+              (<b>Optional:</b> the raisins or chocolate chips can be added in this step, too).
+            </p>
             <br/>
 
             <b><h2>Step 7:</h2></b>
-            <p>Chill the dough – let the dough rest in the fridge for about an hour. The more the dough chills, the less it will spread when baking.</p>
+            <p>Chill the dough – let the dough rest in the fridge for about an hour. The more the dough chills, the less the cookies will spread when baking.</p>
             <br/>
 
             <b><h2>Step 8:</h2></b>

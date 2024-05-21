@@ -9,10 +9,10 @@ export default function Body({text, title, jumpTo}) {
   return (
     <div className="p-4 m-10 bg-secondary" style={gradientShadow}>
       <div className="bg-secondary rounded-3xl">
-        <h1 className="text-2xl font-heading">
+        <h1 className="text-4xl font-heading">
             {title}
         </h1>
-        <div className="text-lg font-body">
+        <div className="text-2xl font-body">
             <a id={jumpTo}>{text}</a>
         </div>
       </div>
